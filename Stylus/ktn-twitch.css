@@ -1,0 +1,70 @@
+/* ==UserStyle==
+@name           KTN Twitch 
+@description    Clean up the UI of Twitch, in conjunction with FrankerFaceZ 
+@version        2024.05.26
+@homepageURL    https: //github.com/ktnjared/ktn-config/stylus/ktn-twitch.css
+
+@namespace      ktn.one
+@author         ktnjared (https://jared.ktn.one/)
+==/UserStyle== */
+@-moz-document domain("twitch.tv"), domain("www.twitch.tv") {
+
+    /* -------------------------------------------------
+ 	 * TOP NAVIGATION
+ 	 * ---------------------------------------------- */
+    /* Hide Discover Luna */
+    .navigation-link[data-a-target="discover-link"],
+    .top-nav__external-link[data-a-target="try-presto-link"] {
+        display: none !important;
+    }
+
+    /* Widen search bar */
+    .search-box {
+        max-width: 80rem !important;
+        width: 70rem;
+    }
+
+    /* -------------------------------------------------
+ 	 * SIDE NAVIGATION
+ 	 * ---------------------------------------------- */
+    /* Hide the entire Side Nav */
+    .side-nav {
+        display: none !important;
+    }
+
+    .side-nav--hover-exp ~ .twilight-main {
+        margin-left: 0 !important;
+    }
+
+    /* -------------------------------------------------
+ 	 * CHANNEL PAGE
+ 	 * ---------------------------------------------- */
+    /* Hide React Button from channel pages */
+    .fOVCdA {
+        display: none !important;
+    }
+
+    /* -------------------------------------------------
+ 	 * SUBSCRIPTIONS PAGE
+ 	 * ---------------------------------------------- */
+    /* Change width of channel cards */
+    .subscription-card {
+        max-width: 40rem !important;
+        width: 40rem !important;
+    }
+
+    /* -------------------------------------------------
+ 	 * FOLLOWING PAGE
+ 	 * ---------------------------------------------- */
+    /* Width of channel cards */
+    .fwymPs > * {
+        max-width: 375px !important;
+        width: 25% !important;
+    }
+
+    /* Width of category cards */
+    .cejWni > * {
+        max-width: 200px !important;
+        width: 11% !important;
+    }
+}

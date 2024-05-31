@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           KTN bitbang.social
+@version        2024.05.30
+@description    Tweaks for bitbang.social
+@homepageURL    @homepageURL https: //github.com/ktnjared/ktn-config/stylus/ktn-bitbang.social.css
+
+@namespace      ktn.one
+@author         ktnjared (https://jared.ktn.one/)
+==/UserStyle== */
+@-moz-document domain("bitbang.social") {
+
+    /* Remove header image 
+     * Due to bitbang.social's custom header image, it breaks userstyles 
+     * for Mastodon, including Tangerine. So we just remove the header 
+     * image.
+     */
+    div.tabs-bar__wrapper::before {
+        display: none !important;
+    }
+
+    /* Customized Tangerine Font */
+    .reply-indicator__content,
+    .status__content {
+        font-family: "Inter", "San Francisco", sans-serif !important;
+        font-size: 18px !important;
+        line-height: 24px !important;
+        font-weight: 400 !important;
+    }
+}

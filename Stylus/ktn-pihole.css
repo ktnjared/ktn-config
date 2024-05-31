@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           KTN Pi-hole
+@version        2024.01.15 
+@description    Tweaks for a self-hosted Pi-hole instance
+@homepageURL    @homepageURL https: //github.com/ktnjared/ktn-config/stylus/ktn-pihole.css
+
+@namespace      ktn.one
+@author         ktnjared (https://jared.ktn.one/)
+==/UserStyle== */
+@-moz-document domain("pihole.dab-komodo.ts.net"),
+domain("pihole.ktn.one"),
+domain("pihole.nei.moe"),
+domain("pihole") {
+
+    /* Widen viewport to nearly the width of the browser */
+    .layout-boxed .wrapper {
+        max-width: 97%;
+    }
+}

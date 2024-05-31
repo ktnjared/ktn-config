@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name           KTN Strategywiki
+@version        2024.05.30
+@description    Tweaks for StrategyWiki
+@homepageURL    @homepageURL https: //github.com/ktnjared/ktn-config/stylus/ktn-strategywiki.css
+
+@namespace      ktn.one
+@author         ktnjared (https://jared.ktn.one/)
+==/UserStyle== */
+@-moz-document domain("strategywiki.org") {
+
+    /* Allow page to use the full width of the window */
+    #container {
+        max-width: none !important;
+    }
+
+    /* Increase main font size */
+    #mw-content-text {
+        font-size: 130% !important;
+    }
+
+    /* Decrease table font size, relative to the main font size */
+    .mw-body table {
+        font-size: 85% !important;
+    }
+}

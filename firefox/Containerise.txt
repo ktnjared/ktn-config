@@ -1,6 +1,8 @@
 # Containerise
 #
-# This file will be autoformatted with all comment lines removed and all lines sorted alphabetically by the extension. The commented version is maintained to make it easier to sort and add to.
+# This file will be autoformatted with all comment lines removed and all 
+# lines sorted alphabetically by the extension. The commented version is 
+# maintained to make it easier to sort and add to.
 
 # TOC
 # 

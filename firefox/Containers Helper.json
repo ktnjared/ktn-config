@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Personal",
+        "icon": "fingerprint",
+        "iconUrl": "resource://usercontext-content/fingerprint.svg",
+        "color": "blue",
+        "colorCode": "#007e7d",
+        "cookieStoreId": "firefox-container-1"
+    },
+    {
+        "name": "Amazon",
+        "icon": "fence",
+        "iconUrl": "resource://usercontext-content/fence.svg",
+        "color": "toolbar",
+        "colorCode": "#333333",
+        "cookieStoreId": "firefox-container-78"
+    },
+    {
+        "name": "Meta",
+        "icon": "fence",
+        "iconUrl": "resource://usercontext-content/fence.svg",
+        "color": "toolbar",
+        "colorCode": "#333333",
+        "cookieStoreId": "firefox-container-79"
+    },
+    {
+        "name": "Reddit",
+        "icon": "fence",
+        "iconUrl": "resource://usercontext-content/fence.svg",
+        "color": "toolbar",
+        "colorCode": "#333333",
+        "cookieStoreId": "firefox-container-80"
+    },
+    {
+        "name": "Google",
+        "icon": "fence",
+        "iconUrl": "resource://usercontext-content/fence.svg",
+        "color": "toolbar",
+        "colorCode": "#333333",
+        "cookieStoreId": "firefox-container-81"
+    },
+    {
+        "name": "Tiktok",
+        "icon": "fence",
+        "iconUrl": "resource://usercontext-content/fence.svg",
+        "color": "toolbar",
+        "colorCode": "#333333",
+        "cookieStoreId": "firefox-container-82"
+    },
+    {
+        "name": "Twitter",
+        "icon": "fence",
+        "iconUrl": "resource://usercontext-content/fence.svg",
+        "color": "toolbar",
+        "colorCode": "#333333",
+        "cookieStoreId": "firefox-container-83"
+    },
+    {
+        "name": "Finance",
+        "icon": "dollar",
+        "iconUrl": "resource://usercontext-content/dollar.svg",
+        "color": "green",
+        "colorCode": "#51cd00",
+        "cookieStoreId": "firefox-container-84"
+    },
+    {
+        "name": "Spotify",
+        "icon": "fence",
+        "iconUrl": "resource://usercontext-content/fence.svg",
+        "color": "toolbar",
+        "colorCode": "#333333",
+        "cookieStoreId": "firefox-container-86"
+    },
+    {
+        "name": "KTN",
+        "icon": "fingerprint",
+        "iconUrl": "resource://usercontext-content/fingerprint.svg",
+        "color": "purple",
+        "colorCode": "#af51f5",
+        "cookieStoreId": "firefox-container-87"
+    },
+    {
+        "name": "Bluesky",
+        "icon": "circle",
+        "iconUrl": "resource://usercontext-content/circle.svg",
+        "color": "blue",
+        "colorCode": "#0a7afF",
+        "cookieStoreId": "firefox-container-88"
+    },
+    {
+        "name": "Fediverse",
+        "icon": "circle",
+        "iconUrl": "resource://usercontext-content/circle.svg",
+        "color": "purple",
+        "colorCode": "#6364ff",
+        "cookieStoreId": "firefox-container-89"
+    }
+]

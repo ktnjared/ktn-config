@@ -1,0 +1,8 @@
+{
+    "Frederick News Post": {
+        "allow_cookies": 1,
+        "domain": "fredericknewspost.com",
+        "remove_cookies": 1,
+        "useragent": "bingbot"
+    }
+}

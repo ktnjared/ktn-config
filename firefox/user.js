@@ -127,9 +127,9 @@ user_pref('network.prefetch-next', false);
 user_pref('network.trr.custom_uri', 'https://dns10.quad9.net/dns-query');
 
 // DEFAULT: null
-user_pref('network.trr.excluded-domains', 'ktn.one, nie.moe');
+user_pref('network.trr.excluded-domains', 'ktn.one, nie.moe, dab-komodo.ts.net');
 
-// DEFAULT:
+// DEFAULT: 
 user_pref('network.trr.mode', 3);
 
 // DEFAULT: https://mozilla.cloudflare-dns.com/dns-query

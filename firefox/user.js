@@ -29,6 +29,18 @@ user_pref('browser.blink_allowed', true);
 // DEFAULT: true
 user_pref('browser.warnOnQuitShortcut', false);
 
+// Weather
+user_pref('browser.newtabpage.activity-stream.discoverystream.region-weather-config', null);
+user_pref('browser.newtabpage.activity-stream.feeds.weatherfeed', false);
+user_pref('browser.newtabpage.activity-stream.showWeather', false);
+user_pref('browser.newtabpage.activity-stream.system.showWeather', false);
+user_pref('browser.newtabpage.activity-stream.weather.locationSearchEnabled', false);
+user_pref('browser.newtabpage.activity-stream.weather.query', null);
+user_pref('browser.newtabpage.activity-stream.weather.temperatureUnits', null);
+user_pref('browser.urlbar.suggest.weather', false);
+user_pref('browser.urlbar.weather.featureGate', false);
+user_pref('browser.urlbar.weather.ignoreVPN', false);
+
 // ╔══════════════════════════════════════════════════════════════════════╗
 // ║ extensions.                                                          ║
 // ╚══════════════════════════════════════════════════════════════════════╝

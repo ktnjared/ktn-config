@@ -1,12 +1,16 @@
-/* ==UserStyle==
-@name           KTN Strategywiki
-@version        2024.05.30
-@description    Tweaks for StrategyWiki
-@homepageURL https: //github.com/ktnjared/ktn-config/
+/* ============================== UserStyle ==============================
+@name           KTN StrategyWiki
+@namespace      https://github.com/ktnjared/ktn-config/
+@homepageURL    https://github.com/ktnjared/ktn-config/
+@supportURL     https://github.com/ktnjared/ktn-config/
+@updateURL      https://raw.githubusercontent.com/ktnjared/ktn-config/main/browser%20extensions/Userscripts/ktn-strategywiki.css
+@downloadURL    https://raw.githubusercontent.com/ktnjared/ktn-config/main/browser%20extensions/Userscripts/ktn-strategywiki.css
 
-@namespace      ktn.one
-@author         ktnjared (https://jared.ktn.one/)
-==/UserStyle== */
+@description    Tweaks for StrategyWiki
+
+@version        2024.05.26
+@author         ktnjared
+============================== UserStyle ============================== */
 @-moz-document domain("strategywiki.org") {
 
     /* Allow page to use the full width of the window */

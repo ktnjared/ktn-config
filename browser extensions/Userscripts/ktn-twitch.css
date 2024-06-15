@@ -1,12 +1,16 @@
-/* ==UserStyle==
+/* ============================== UserStyle ==============================
 @name           KTN Twitch 
-@description    Clean up the UI of Twitch, in conjunction with FrankerFaceZ 
-@version        2024.05.26
-@homepageURL https: //github.com/ktnjared/ktn-config/
+@namespace      https://github.com/ktnjared/ktn-config/
+@homepageURL    https://github.com/ktnjared/ktn-config/
+@supportURL     https://github.com/ktnjared/ktn-config/
+@updateURL      https://raw.githubusercontent.com/ktnjared/ktn-config/main/browser%20extensions/Userscripts/ktn-twitch.css
+@downloadURL    https://raw.githubusercontent.com/ktnjared/ktn-config/main/browser%20extensions/Userscripts/ktn-twitch.css
 
-@namespace      ktn.one
-@author         ktnjared (https://jared.ktn.one/)
-==/UserStyle== */
+@description    Clean up the UI of Twitch, in conjunction with FrankerFaceZ 
+
+@version        2024.05.26
+@author         ktnjared
+============================== UserStyle ============================== */
 @-moz-document domain("twitch.tv"), domain("www.twitch.tv") {
 
     /* -------------------------------------------------

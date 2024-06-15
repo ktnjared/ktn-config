@@ -1,12 +1,16 @@
-/* ==UserStyle==
+/* ============================== UserStyle ==============================
 @name           KTN Pi-hole
-@version        2024.01.15 
-@description    Tweaks for a self-hosted Pi-hole instance
+@namespace      https://github.com/ktnjared/ktn-config/
 @homepageURL    https://github.com/ktnjared/ktn-config/
+@supportURL     https://github.com/ktnjared/ktn-config/
+@updateURL      https://raw.githubusercontent.com/ktnjared/ktn-config/main/browser%20extensions/Userscripts/ktn-pihole.css
+@downloadURL    https://raw.githubusercontent.com/ktnjared/ktn-config/main/browser%20extensions/Userscripts/ktn-pihole.css
 
-@namespace      ktn.one
-@author         ktnjared (https://jared.ktn.one/)
-==/UserStyle== */
+@description    Tweaks for a self-hosted Pi-hole instance
+
+@version        2024.01.15
+@author         ktnjared
+============================== UserStyle ============================== */
 @-moz-document domain("pihole.dab-komodo.ts.net"),
 domain("pihole.ktn.one"),
 domain("pihole.nei.moe"),

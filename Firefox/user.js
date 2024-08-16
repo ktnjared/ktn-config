@@ -135,8 +135,8 @@ user_pref("cookiebanners.ui.desktop.enabled", true);
 // ╔═══════════════════════════════════════════════════════════════════════╗
 // ║ dom.                                                                  ║
 // ╚═══════════════════════════════════════════════════════════════════════╝
-user_pref('dom.webgpu.enabled', true);
 user_pref("dom.vibrator.enabled", false); // controller vibration support
+user_pref("dom.webgpu.enabled", true);
 
 // ╔═══════════════════════════════════════════════════════════════════════╗
 // ║ extensions.                                                           ║
@@ -157,7 +157,7 @@ user_pref("extensions.translations.disabled", false); // Translations disabled
 user_pref("font.default.x-western", "san-serif"); // Default font
 user_pref("font.minimum-size.x-western", 11); // Minimum font size
 user_pref("font.name.monospace.x-western", "Comic Code Ligatures"); // monospace font
-user_pref("font.name.sans-serif.x-western", "SF Pro"); // san-serif font
+user_pref("font.name.sans-serif.x-western", "Inter Variable"); // san-serif font
 user_pref("font.name.serif.x-western", "New York"); // serif font
 
 // ╔═══════════════════════════════════════════════════════════════════════╗
@@ -179,8 +179,8 @@ user_pref("image.jxl.enabled", true); // JPEG-XL support
 // ╔═══════════════════════════════════════════════════════════════════════╗
 // ║ layout.                                                               ║
 // ╚═══════════════════════════════════════════════════════════════════════╝
-user_pref('layout.css.grid-template-masonry-value.enabled', true); // Masonry grid layout support
-user_pref("layout.css.always_underline_links", true); // Always underline links
+user_pref("layout.css.always_underline_links", false); // Always underline links
+user_pref("layout.css.grid-template-masonry-value.enabled", true); // Masonry grid layout support
 
 // ╔═══════════════════════════════════════════════════════════════════════╗
 // ║ media.                                                                ║
@@ -295,9 +295,7 @@ user_pref("xpinstall.signatures.required", false);
 // ║          / __ \|  | \/    <\  ___/|   |  \  | (  <_> >    <           ║
 // ║         (____  /__|  |__|_ \\___  >___|  /__|  \____/__/\_ \          ║
 // ║              \/           \/    \/     \/                 \/          ║
-// ╚═══════════════════════════════════════════════════════════════════════╝
-// 
-// ╔═══════════════════════════════════════════════════════════════════════╗
+// ╠═══════════════════════════════════════════════════════════════════════╣
 // ║ Curated selection from arkenfox                                       ║
 // ╚═══════════════════════════════════════════════════════════════════════╝
 

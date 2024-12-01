@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name        CSS modifications for bitbang.social
 // @namespace   CSS modifications for bitbang.social
+// @description CSS modifications for bitbang.social
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=bitbang.social
 // @homepageURL https://github.com/ktnjared/ktn-config/tree/main/userscripts
 // @downloadURL https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/bitbang.social.css.js

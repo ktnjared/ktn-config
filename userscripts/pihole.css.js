@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name        CSS modifications for pihole
 // @namespace   CSS modifications for pihole
+// @description CSS modifications for pihole
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=pi-hole.net
 // @homepageURL https://github.com/ktnjared/ktn-config/tree/main/userscripts
 // @downloadURL https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/pihole.css.js

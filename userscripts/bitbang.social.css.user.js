@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name        CSS modifications for example.site
-// @namespace   CSS modifications for example.site
-// @description CSS modifications for example.site
-// @icon        https://www.google.com/s2/favicons?sz=64&domain=example.site
+// @name        CSS modifications for bitbang.social
+// @namespace   CSS modifications for bitbang.social
+// @description CSS modifications for bitbang.social
+// @icon        https://www.google.com/s2/favicons?sz=64&domain=bitbang.social
 // @homepageURL https://github.com/ktnjared/ktn-config/tree/main/userscripts
-// @downloadURL https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/example.site.css.js
-// @updateURL   https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/example.site.css.js
+// @downloadURL https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/bitbang.social.css.user.js
+// @updateURL   https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/bitbang.social.css.user.js
 // @author      ktnjared
 // @version     1.0.0
-// @match       *://example.site/*
+// @match       *://bitbang.social/*
 // @grant       GM_addStyle
 // @run-at      document-start
 // ==/UserScript==
@@ -25,4 +25,5 @@ function GM_addStyle(css) {
     sheet.insertRule(css, (sheet.rules || sheet.cssRules || []).length);
 }
 
-GM_addStyle (" ADD { CSS: HERE }; ");
+// Remove header image to fix TangerineUI
+GM_addStyle ("div.tabs-bar__wrapper::before {display: none;};");

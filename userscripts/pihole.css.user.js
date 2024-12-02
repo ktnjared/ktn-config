@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name        CSS modifications for bitbang.social
-// @namespace   CSS modifications for bitbang.social
-// @description CSS modifications for bitbang.social
-// @icon        https://www.google.com/s2/favicons?sz=64&domain=bitbang.social
+// @name        CSS modifications for pihole
+// @namespace   CSS modifications for pihole
+// @description CSS modifications for pihole
+// @icon        https://www.google.com/s2/favicons?sz=64&domain=pi-hole.net
 // @homepageURL https://github.com/ktnjared/ktn-config/tree/main/userscripts
-// @downloadURL https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/bitbang.social.css.js
-// @updateURL   https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/bitbang.social.css.js
+// @downloadURL https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/pihole.css.user.js
+// @updateURL   https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/pihole.css.user.js
 // @author      ktnjared
 // @version     1.0.0
-// @match       *://bitbang.social/*
+// @match       *://pihole/*
 // @grant       GM_addStyle
 // @run-at      document-start
 // ==/UserScript==
@@ -25,5 +25,4 @@ function GM_addStyle(css) {
     sheet.insertRule(css, (sheet.rules || sheet.cssRules || []).length);
 }
 
-// Remove header image to fix TangerineUI
-GM_addStyle ("div.tabs-bar__wrapper::before {display: none;};");
+GM_addStyle (" .layout-boxed .wrapper {max-width: 97%;} ");

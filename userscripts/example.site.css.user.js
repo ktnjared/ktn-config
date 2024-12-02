@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name        CSS modifications for pihole
-// @namespace   CSS modifications for pihole
-// @description CSS modifications for pihole
-// @icon        https://www.google.com/s2/favicons?sz=64&domain=pi-hole.net
+// @name        CSS modifications for example.site
+// @namespace   CSS modifications for example.site
+// @description CSS modifications for example.site
+// @icon        https://www.google.com/s2/favicons?sz=64&domain=example.site
 // @homepageURL https://github.com/ktnjared/ktn-config/tree/main/userscripts
-// @downloadURL https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/pihole.css.js
-// @updateURL   https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/pihole.css.js
+// @downloadURL https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/example.site.css.user.js
+// @updateURL   https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/example.site.css.user.js
 // @author      ktnjared
 // @version     1.0.0
-// @match       *://pihole/*
+// @match       *://example.site/*
 // @grant       GM_addStyle
 // @run-at      document-start
 // ==/UserScript==
@@ -25,4 +25,4 @@ function GM_addStyle(css) {
     sheet.insertRule(css, (sheet.rules || sheet.cssRules || []).length);
 }
 
-GM_addStyle (" .layout-boxed .wrapper {max-width: 97%;} ");
+GM_addStyle (" ADD { CSS: HERE }; ");

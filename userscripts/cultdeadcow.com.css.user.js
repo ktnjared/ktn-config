@@ -18,20 +18,20 @@ GM_addStyle(`
         background-color: #c0c0c0; //silver
         color: #000000; //black
         font-weight: 600;
-    };
+    }
 `);
 
 // Set hyperlinks to HTML 2.0 values
 GM_addStyle(`
     a:link {
         color: #0000ff; //blue
-    };
+    }
 
     a:visited {
         color: #800080; //purple
-    };
+    }
 
     a:active {
         color: #ff0000; //red
-    };
+    }
 `);

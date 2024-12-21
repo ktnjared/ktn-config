@@ -16,5 +16,5 @@
 GM_addStyle(`
     ._ap_apex_ad {
         display: none !important;
-    };
+    }
 `);

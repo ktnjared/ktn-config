@@ -18,5 +18,5 @@ GM_addStyle(`
     @-moz-document domain('pihole') {
     .layout-boxed .wrapper {
         max-width: 97%;
-    };
+    }
 `)

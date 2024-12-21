@@ -16,5 +16,5 @@
 GM_addStyle(`
     ADD {
         CSS: HERE;
-    };
+    }
 `);

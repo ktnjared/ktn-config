@@ -16,5 +16,5 @@
 GM_addStyle(`
     div.tabs-bar__wrapper::before {
         display: none;
-    };
+    }
 `);

@@ -2,7 +2,7 @@
 // @name        [CSS] youtube.com
 // @description UserStyles for youtube.com
 // @author      ktnjared
-// @version     1.0.0
+// @version     1.0.1
 // @run-at      document-start
 // @grant       GM_addStyle
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=youtube.com
@@ -10,6 +10,9 @@
 // @downloadURL https://ktn.one/jared/userscripts/raw/youtube.com.css.user.js
 // @updateURL   https://ktn.one/jared/userscripts/raw/youtube.com.css.user.js
 // @match       *://youtube.com/*
+// @match       *://*.youtube.com/*
+// @match       *://youtu.be/*
+// @match       *://*.youtube/*
 // ==/UserScript==
 
 // Sidebar Element: Hide Shorts

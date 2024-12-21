@@ -1,0 +1,328 @@
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║                                                                        ║ 
+! ║            █████     ████                    █████                     ║
+! ║           ░░███     ░░███                   ░░███                      ║
+! ║ █████ ████ ░███████  ░███   ██████   ██████  ░███ █████                ║
+! ║░░███ ░███  ░███░░███ ░███  ███░░███ ███░░███ ░███░░███  ██████████     ║
+! ║ ░███ ░███  ░███ ░███ ░███ ░███ ░███░███ ░░░  ░██████░  ░░░░░░░░░░      ║
+! ║ ░███ ░███  ░███ ░███ ░███ ░███ ░███░███  ███ ░███░░███                 ║
+! ║ ░░████████ ████████  █████░░██████ ░░██████  ████ █████                ║
+! ║  ░░░░░░░░ ░░░░░░░░  ░░░░░  ░░░░░░   ░░░░░░  ░░░░ ░░░░░                 ║
+! ║                                                                        ║
+! ║                                     ███            ███                 ║
+! ║                                    ░░░            ░░░                  ║
+! ║                  ██████  ████████  ████   ███████ ████  ████████       ║
+! ║                 ███░░███░░███░░███░░███  ███░░███░░███ ░░███░░███      ║
+! ║                ░███ ░███ ░███ ░░░  ░███ ░███ ░███ ░███  ░███ ░███      ║
+! ║                ░███ ░███ ░███      ░███ ░███ ░███ ░███  ░███ ░███      ║
+! ║                ░░██████  █████     █████░░███████ █████ ████ █████     ║
+! ║                 ░░░░░░  ░░░░░     ░░░░░  ░░░░░███░░░░░ ░░░░ ░░░░░      ║
+! ║                                          ███ ░███                      ║
+! ║                                         ░░██████                       ║
+! ║                                          ░░░░░░                        ║
+! ║                                                                        ║ 
+! ╚════════════════════════════════════════════════════════════════════════╝
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ GLOBAL / ALL DOMAINS                                                   ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+##.admania_adblock_detector
+##.o-AdhesionNotifier
+##.popup-premium__apla
+###adblockBanner
+###like-us-adblock-modal
+###yousuck
+/adblock-detector/*
+/adblock-popup.
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ UNDOCUMENTED ONE-OFFS                                                  ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+dev.to###page-content-inner > .crayons-layout__comments-billboard.pb-4.js-billboard-container > div
+ebay.com##.recs-module
+keychron.com##.invisible.end.bottom-0.fixed.sticky-atc-panel
+kotaku.com###sidebar_wrapper
+lifewire.com##.mntl-block.mntl-jwplayer-broad.article__broad-video--jw.comp
+music.apple.com##div.upsell-banner:last-child
+nytimes.com###__next > div._6c8ba376:nth-child(6)
+tumblr.com##.smX3m.hgN9e.VC_rY.IvzMP
+vsco.co##.css-5sdrd5, .enkhd800
+wftv.com###pvp
+||hackintosh.*/donate/donate.php
+||mms.cnn.com^$script
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ Bing                                                                   ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+! Hide content on bottom of page
+bing.com##.show_none.scroll_cont
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ bitbang.social                                                         ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+! Hide header image (custom header image breaks Tangerine)
+bitbang.social##.tabs-bar__wrapper::before
+
+! Hide List side panel
+bitbang.social##.list-panel
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ bsky.app                                                               ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+! Hide "return to top" floating caret-cirlce
+bsky.app##[aria-label="Load new posts"]
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ DeviantArt                                                             ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+deviantart.com##._1qttM
+deviantart.com##._2Ee-T.v0vmd._3U8hI._3272G
+deviantart.com##._2y4EE._3tNAR.vvI-A._2LoZw.reset-link
+deviantart.com##._37cCW._16RrG._1jkTN._2D30j.reset-link
+deviantart.com##._3H0rq._3iTK2._2Atxb._2mMj4
+deviantart.com##.KzjtR.reset-button
+deviantart.com##.PHi8j
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ DuckDuckGo                                                             ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+duckduckgo.com##.center_andText__ejUnC.center_intrinsic__mk_Ab.center_root__Uf1xM.home_exploreFeatureScroller__V5a9G.legacy-homepage-variants_scrollCta__hNjqv
+duckduckgo.com##.home_belowTheFoldContainer__44wPy
+duckduckgo.com##.homepagePromotion_homepagePromotion__APxaM
+duckduckgo.com##.text_text__q9rvO.text_text-md__x96X3.tagline_tagline__xryVo
+duckduckgo.com###content_homepage > div.badge-link.badge-link--full.js-badge-link:nth-child(2)
+duckduckgo.com###content_homepage > div.content-info:last-child
+duckduckgo.com###faq
+duckduckgo.com##div.site-wrapper.site-wrapper--home.js-site-wrapper:nth-child(9) > a.btn.btn--primary.atb-button--faq.ddg-extension-hide:last-child
+duckduckgo.com##div.site-wrapper.site-wrapper--home.js-site-wrapper:nth-child(9) > div.header-wrap--home.js-header-wrap:first-child > div.header--aside.js-header-aside > div.header--aside__item.header--aside__social.header__label.social.js-header-aside-item-social:last-child
+duckduckgo.com##div.site-wrapper.site-wrapper--home.js-site-wrapper:nth-child(9) > div.onboarding-ed.js-onboarding-ed.onboarding-ed--faq:nth-child(6)
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ Fandom                                                                 ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+fandom.com##.global-navigation__top
+fandom.com##.is-overflowing.global-navigation__bottom
+fandom.com##.page__right-rail
+fandom.com##.page-side-edit.page-side-tool
+fandom.com###WikiaBar
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ Google                                                                 ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+||accounts.google.com/gsi/*$xhr,script,3p
+books.google.com###menu_scroll > div.ebook-promo:nth-child(4)
+google.*##[id^="eob_"]
+google.com##.lRdzfb.ztdT5d
+google.com##.rXTNYc.jEANaf
+google.com##.wuXmqc.z1asCe.haJ2Nc
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ Metagamerscore                                                         ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+metagamerscore.com###aff_box
+metagamerscore.com##div.ad_wide_ss:nth-of-type(3)
+metagamerscore.com##div.ad_wide_ss:nth-of-type(4)
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ Pixiv                                                                  ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+pixiv.net##div.sc-jgyytr-1:nth-of-type(4)
+pixiv.net##.popular-introduction-overlay
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ Slashdot                                                               ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+slashdot.org##.deals-rail
+slashdot.org##.ad-blocked-newsletter
+slashdot.org##.deals-wrapper
+slashdot.org##iframe[id^=bz-lf]
+slashdot.org##article:has(div.ntv-sponsored-disclaimer)
+slashdot.org###announcement:has(strong):has-text(/DEAL:/)
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ Spotify                                                                ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+open.spotify.com##.fvTMoO.Button-sc-qlcn5g-0
+open.spotify.com##button.jcvA-dG.LegacyChip__LegacyChipComponent-sc-tzfq94-0:nth-of-type(4)
+open.spotify.com##.cj6vRk3nFAi80HSVqX91
+open.spotify.com##.eLtwKe.Button-sc-qlcn5g-0
+open.spotify.com###tippy-2
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ Twitch                                                                 ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+twitch.tv##.ecdmOJ.Layout-sc-1xcs6mc-0
+twitch.tv##.fOVCdA
+twitch.tv##.hljDeB.Layout-sc-1xcs6mc-0
+twitch.tv##.lcFJxY
+twitch.tv##.top-nav__external-link
+twitch.tv###div.eSWdAT:nth-child(3)
+twitch.tv###div.eSWdAT:nth-child(4)
+twitch.tv###div.Layout-sc-1xcs6mc-0:nth-child(5)
+twitch.tv###live-channel-stream-information > div.Layout-sc-1xcs6mc-0.eiGFTf > div.Layout-sc-1xcs6mc-0.iofXOu > div.Layout-sc-1xcs6mc-0.fFTwxZ > div.Layout-sc-1xcs6mc-0.bhLqhW > div.Layout-sc-1xcs6mc-0.chGnpF:last-child > div.Layout-sc-1xcs6mc-0.exfAFI.metadata-layout__support:first-child > div.Layout-sc-1xcs6mc-0.cKyclM:last-child > div.Layout-sc-1xcs6mc-0.cqcPrW:last-child > div.Layout-sc-1xcs6mc-0.fOVCdA:first-child > button.ScCoreButton-sc-ocjdkq-0.ScCoreButtonText-sc-ocjdkq-3.ibtYyW.jYfhUy
+twitch.tv###top-nav__external-link[data-a-target = "try-presto-link"]
+twitch.tv##div.bFqPcI.Layout-sc-1xcs6mc-0:nth-of-type(6)
+twitch.tv##div.yErBe.Layout-sc-1xcs6mc-0:nth-of-type(3)
+
+! hide top nav Discover button
+twitch.tv###navigation-link[data-a-target = "discover-link"]
+
+! hide side navigation
+twitch.tv##.side-nav--collapsed.side-nav.czlXJR.Layout-sc-1xcs6mc-0
+twitch.tv##.side-nav--expanded.side-nav.ceLdPR.Layout-sc-1xcs6mc-0
+twitch.tv###side-nav
+twitch.tv###side-nav--hover-exp
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ YouTube                                                                ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+! Hide dynamic header buttons
+youtube.com###scroll-container:upward(#header)
+
+! Hide related searches and related results from search results
+youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
+youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-renderer
+
+! --- CHANNEL AND VIDEO PAGES ---
+! Hide Clip button
+youtube.com##[aria-label="Clip"]
+! Hide Download button
+youtube.com##[aria-label="Download"]
+! Hide Join button
+youtube.com##[aria-label="Join this channel"]
+! Hide "More actions"/elipsis button
+youtube.com##[aria-label="More actions"]
+! Hide Super Thanks button
+youtube.com##[aria-label="Thanks"]
+! Hide Comment count
+www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
+
+! --- SIDEBAR ---
+! --- TOP ---
+! Hide Shorts
+youtube.com##a[title="Shorts"]:upward(ytd-guide-entry-renderer)
+! Hide YouTube Music
+youtube.com##a[href*="music.youtube"]:upward(ytd-guide-entry-renderer)
+
+! --- You ----
+! Hide History
+youtube.com##a[href="/feed/history"]:upward(ytd-guide-entry-renderer)
+! Hide Your Movies & TV
+youtube.com##a[title="Your movies & TV"]:upward(ytd-guide-entry-renderer)
+! Hide Downloads
+youtube.com##a[href="/feed/downloads"]:upward(ytd-guide-entry-renderer)
+! Hide Your Clips
+youtube.com##a[href="/feed/clips"]:upward(ytd-guide-entry-renderer)
+! Hide Liked Videos
+youtube.com##a[href="/playlist?list=LL"]:upward(ytd-guide-entry-renderer)
+! Hide Your Videos
+youtube.com##a[title="Your videos"]:upward(ytd-guide-entry-renderer)
+
+! --- Subscriptions ---
+! Hide Channels with new videos (eg. blue dot). Only display Live channels
+youtube.com##ytd-guide-entry-renderer[line-end-style="dot"]
+! Hide "All channels"
+youtube.com##a[href="/feed/channels"]:upward(ytd-guide-entry-renderer)
+! Hide "Show more"
+youtube.com##a[title="Show more"]:upward(ytd-guide-entry-renderer)
+
+! Hide "Explore" section
+youtube.com##ytd-guide-section-renderer>h3>yt-formatted-string:has-text(/Explore/):upward(ytd-guide-section-renderer)
+! Hide "More from YouTube" section
+youtube.com##ytd-guide-section-renderer>h3>yt-formatted-string:has-text(/More from YouTube/):upward(ytd-guide-section-renderer)
+! Hide bottom section
+youtube.com##a[title="Send feedback"]:upward(ytd-guide-section-renderer)
+! Hide "Footer" section
+youtube.com###copyright:upward(#footer)
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ No Longer Needed, Kept for Historical Reference for Others             ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+
+! Facebook
+facebook.com##.x1u8a7rm.x17qophe.xixxii4.x1ye3gou.x1s14bel.xn6708d.x1xy6bms.xds687c.x9f619.xayqjjm.x1ey2m1c.x2bj2ny.x193iq5w.x2lah0s.xdt5ytf.x78zum5
+facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
+facebook.com##[aria-label*="Marketplace"] object:has(> a[href^="/ads/"] > span:has-text(/^Sponsored$/)):upward(a):upward(3)
+facebook.com###mount_0_0_lU > div > div:first-child > div.x9f619.x1n2onr6.x1ja2u2z > div:nth-child(4) > div > div.x78zum5.xdt5ytf.x2lah0s.x193iq5w.x2bj2ny.x1ey2m1c.xayqjjm.x9f619.xds687c.x1xy6bms.xn6708d.x1s14bel.x1ye3gou.xixxii4.x17qophe.x1u8a7rm
+
+! Reddit
+amp.reddit.com##.AppSelectorModal__body
+amp.reddit.com##.upsell_banner
+old.reddit.com##.premium-banner
+old.reddit.com###redesign-beta-optin-btn
+reddit.com##.bottom-bar, .XPromoBottomBar
+reddit.com##.useApp,.TopNav__promoButton
+reddit.com##.XPromoInFeed
+reddit.com##.XPromoPopup
+reddit.com##.XPromoPopupRpl
+reddit.com##.XPromoPopupRplNew
+reddit.com###change-username-tooltip-id > span._2zZ-KGHbWWqrwGlHWXR90y:last-child
+reddit.com###SHORTCUT_FOCUSABLE_DIV > div:nth-child(2) > header._1tvdSTbdxaK-BnUbzUIqIY._2GyPfdsi-MbQFyHRECo9GO.cx1ohrUAq6ARaXTX2u8YN:first-child > div._2vkeRJojnV7cb9pMlPHy7d > div._2u8LqkbMtzd0lpblMFbJq5:last-child > div.x0hiXHicn7r3BG9m1FJH4._23q1waDr4n_2fR5A7zcZzb:first-child
+reddit.com###SHORTCUT_FOCUSABLE_DIV > div:nth-child(4) > div._1nxEQl5D2Bx2jxDILRHemb > div > div.qYj03fU5CXf5t2Fc5iSvg.ListingLayout-outerContainer > div._3ozFtOe6WpJEMUtxDOIvtU:last-child > div._31N0dvxfpsO6Ur5AKx4O5d:last-child > div._1OVBBWLtHoSPfGCRaPzpTf._3nSp9cdBpqL13CqjdMr2L_._2OVNlZuUd8L9v0yVECZ2iA:first-child > div.rpBJOHq2PR60pnwJlUyP0:nth-child(5) > div:nth-child(5)
+reddit.com###SHORTCUT_FOCUSABLE_DIV > div:nth-child(4) > div._1nxEQl5D2Bx2jxDILRHemb > div > div.qYj03fU5CXf5t2Fc5iSvg.ListingLayout-outerContainer > div._3ozFtOe6WpJEMUtxDOIvtU:last-child > div._31N0dvxfpsO6Ur5AKx4O5d:last-child > div._1OVBBWLtHoSPfGCRaPzpTf._3nSp9cdBpqL13CqjdMr2L_._2OVNlZuUd8L9v0yVECZ2iA:first-child > div.rpBJOHq2PR60pnwJlUyP0:nth-child(5) > div:nth-child(5)
+reddit.com##+js(aeld, touchmove)
+reddit.com##body:style(pointer-events:auto!important;)
+reddit.com##body.scroll-disabled:style(overflow: visible!important; position: static!important;)
+reddit.com##body.scroll-is-blocked:style(overflow: visible!important; position: static!important;)
+reddit.com##body[style*="overflow"]:style(overflow:auto!important;)
+reddit.com##body[style*="pointer-events"]:style(pointer-events:auto!important;)
+reddit.com##div.side:nth-child(5) > div.spacer:nth-child(5)
+reddit.com##xpromo-app-selector
+reddit.com##xpromo-new-app-selector
+
+! Hide AutoModerator comments
+! https://www.reddit.com/r/uBlockOrigin/comments/140lp15/any_way_to_hide_automoderator_comments_with_ublock/
+reddit.com##[data-testid="comment_author_link"][href="/user/AutoModerator/"]:upward(.Comment)
+reddit.com##.comment .author[href="https://old.reddit.com/user/AutoModerator"]:upward(.comment)
+! To hide AutoModerator, anyone who contains "mod" or "bot"
+old.reddit.com##.comment[data-author="AutoModerator"]
+! old.reddit.com##.comment[data-author*="mod"]
+old.reddit.com##.comment[data-author*="bot"]
+! To hide any mod
+! old.reddit.com##.comment:has(.entry .tagline .moderator)
+! Hide Moderator section
+www.reddit.com###moderation_section
+
+! Twitter/X
+x.com##[aria-label="Timeline: Conversation"] [href*="/status/"] ~ span
+x.com##[aria-label$="trending now" i]
+x.com##[aria-label$="who to follow" i]
+x.com##[data-testid="sidebarColumn"]
+x.com##[data-testid="UserCell"]
+x.com##article [role=group] [href$="/analytics"]:upward(div:not(:only-child))
+x.com###react-root > div.css-1dbjc4n.r-13awgt0.r-12vffkv > div.css-1dbjc4n.r-13awgt0.r-12vffkv > div.css-1dbjc4n.r-18u37iz.r-13qz1uu.r-417010:last-child > main.css-1dbjc4n.r-1habvwh.r-16y2uox.r-1wbh5a2:last-child > div.css-1dbjc4n.r-150rngu.r-16y2uox.r-1wbh5a2.r-rthrr5 > div.css-1dbjc4n.r-aqfbo4.r-16y2uox > div.css-1dbjc4n.r-1oszu61.r-1niwhzg.r-18u37iz.r-16y2uox.r-1wtj0ep.r-2llsf.r-13qz1uu > div.css-1dbjc4n.r-14lw9ot.r-jxzhtn.r-1ljd8xs.r-13l2t4g.r-1phboty.r-16y2uox.r-1jgb5lz.r-11wrixw.r-61z16t.r-1ye8kvj.r-13qz1uu.r-184en5c:first-child > div.css-1dbjc4n > div.css-1dbjc4n.r-aqfbo4.r-gtdqiz.r-1gn8etr.r-1g40b8q:first-child > div.css-1dbjc4n.r-633pao.r-u8s1d.r-dkhcqf.r-axxi2z.r-18jm5s1.r-13qz1uu.r-1wyyakw:last-child
+x.com##span:has-text(Show more):nth-ancestor(2)
+x.com##span:has-text(Who to follow):nth-ancestor(5)
+x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-xyw6el.r-18u37iz.r-6koalj.r-sdzlij.r-1awozwy.css-175oi2r > .r-16y2uox.r-obd0qt.css-175oi2r
+
+! Hide Messages drawer
+x.com##div[data-testid="DMDrawer"]
+
+! --- TIMELINE ---
+! Hide in-line posting box/What's New box
+x.com##span:has-text("Post"):upward(.r-1h8ys4a.r-14lw9ot.css-175oi2r)
+
+! --- NAVBAR (LEFT SIDE) ---
+! Hide X logo
+x.com##a[aria-label="X"]
+
+! Hide Communities
+x.com##a[aria-label="Communities"]
+! Hide Grok
+x.com##a[aria-label="Grok"]
+! Hide Jobs
+x.com##a[aria-label="Jobs"]
+! Hide Premium
+x.com##a[aria-label="Premium"]
+! Hide Search
+x.com##a[aria-label="Search and explore"]
+! Hide Verified
+x.com##a[aria-label="Verified Orgs"]
+
+! Hide post button
+x.com##span:has-text(Post):upward(a[href="/compose/post"]):upward(div)
+
+! ╔════════════════════════════════════════════════════════════════════════╗
+! ║ UNSORTED - Added after last time the config was exported               ║
+! ╚════════════════════════════════════════════════════════════════════════╝
+

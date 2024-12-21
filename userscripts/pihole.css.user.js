@@ -1,28 +1,22 @@
 // ==UserScript==
-// @name        CSS modifications for pihole
-// @namespace   CSS modifications for pihole
-// @description CSS modifications for pihole
-// @icon        https://www.google.com/s2/favicons?sz=64&domain=pi-hole.net
-// @homepageURL https://github.com/ktnjared/ktn-config/tree/main/userscripts
-// @downloadURL https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/pihole.css.user.js
-// @updateURL   https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/pihole.css.user.js
+// @name        [CSS] Pi-hole
+// @description UserStyles for Pi-hole
 // @author      ktnjared
 // @version     1.0.0
-// @match       *://pihole/*
-// @grant       GM_addStyle
 // @run-at      document-start
+// @grant       GM_addStyle
+// @icon        https://www.google.com/s2/favicons?sz=64&domain=pi-hole.net
+// @homepageURL https://ktn.one/jared/userscripts/
+// @downloadURL https://ktn.one/jared/userscripts/raw/pihole.css.user.js
+// @updateURL   https://ktn.one/jared/userscripts/raw/pihole.css.user.js
+// @match       *://pihole/*
+// @match       *://pihole.dab-komodo.ts.net/*
 // ==/UserScript==
 
-function GM_addStyle(css) {
-    const style = document.getElementById("GM_addStyleBy8626") || (function() {
-        const style = document.createElement('style');
-        style.type = 'text/css';
-        style.id = "GM_addStyleBy8626";
-        document.head.appendChild(style);
-        return style;
-    })();
-    const sheet = style.sheet;
-    sheet.insertRule(css, (sheet.rules || sheet.cssRules || []).length);
-}
-
-GM_addStyle (" .layout-boxed .wrapper {max-width: 97%;} ");
+// Increase width
+GM_addStyle(`
+    @-moz-document domain('pihole') {
+    .layout-boxed .wrapper {
+        max-width: 97%;
+    };
+`)

@@ -1,35 +1,37 @@
 // ==UserScript==
-// @name        CSS modifications for cultdeadcow.com
-// @namespace   CSS modifications for cultdeadcow.com
-// @description CSS modifications for cultdeadcow.com
-// @icon        https://www.google.com/s2/favicons?sz=64&domain=cultdeadcow.com
-// @homepageURL https://github.com/ktnjared/ktn-config/tree/main/userscripts
-// @downloadURL https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/cultdeadcow.com.css.user.js
-// @updateURL   https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/cultdeadcow.com.css.user.js
+// @name        [CSS] cultdeadcow.com
+// @description UserStyles for cultdeadcow.com
 // @author      ktnjared
 // @version     1.0.0
-// @match       *://cultdeadcow.com/*
-// @grant       GM_addStyle
 // @run-at      document-start
+// @grant       GM_addStyle
+// @icon        https://www.google.com/s2/favicons?sz=64&domain=cultdeadcow.com
+// @homepageURL https://ktn.one/jared/userscripts/
+// @downloadURL https://ktn.one/jared/userscripts/raw/cultdeadcow.com.css.user.js
+// @updateURL   https://ktn.one/jared/userscripts/raw/cultdeadcow.com.css.user.js
+// @match       *://cultdeadcow.com/*
 // ==/UserScript==
 
-function GM_addStyle(css) {
-    const style = document.getElementById("GM_addStyleBy8626") || (function() {
-        const style = document.createElement('style');
-        style.type = 'text/css';
-        style.id = "GM_addStyleBy8626";
-        document.head.appendChild(style);
-        return style;
-    })();
-    const sheet = style.sheet;
-    sheet.insertRule(css, (sheet.rules || sheet.cssRules || []).length);
-}
+// Set body to black color, weight 600, HTML 2.0 gray
+GM_addStyle(`
+    body {
+        background-color: #c0c0c0; //silver
+        color: #000000; //black
+        font-weight: 600;
+    };
+`);
 
-// Set background to HTTP1.1 gray
-GM_addStyle (" body { background-color: #c0c0c0; } ");
+// Set hyperlinks to HTML 2.0 values
+GM_addStyle(`
+    a:link {
+        color: #0000ff; //blue
+    };
 
-// Set text to black color, and weight 600
-GM_addStyle (" body {color: #000000; font-weight: 600; } ");
+    a:visited {
+        color: #800080; //purple
+    };
 
-// Set hyperlinks to blue
-GM_addStyle (" a:link, a:visited { color: #0000ff; } ");
+    a:active {
+        color: #ff0000; //red
+    };
+`);

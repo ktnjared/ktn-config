@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name        [CSS] cultdeadcow.com
-// @description UserStyles for cultdeadcow.com
+// @name        [ktn] cultdeadcow.com
+// @description Customizations for cultdeadcow.com
 // @author      ktnjared
-// @version     1.0.0
+// @version     1.0.1
 // @run-at      document-start
 // @grant       GM_addStyle
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=cultdeadcow.com
 // @homepageURL https://ktn.one/jared/userscripts/
-// @downloadURL https://ktn.one/jared/userscripts/raw/cultdeadcow.com.css.user.js
-// @updateURL   https://ktn.one/jared/userscripts/raw/cultdeadcow.com.css.user.js
+// @downloadURL https://ktn.one/jared/userscripts/raw/cultdeadcow.user.js
+// @updateURL   https://ktn.one/jared/userscripts/raw/cultdeadcow.user.js
 // @match       *://cultdeadcow.com/*
 // ==/UserScript==
 

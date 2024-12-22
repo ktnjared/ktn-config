@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name        [CSS] youtube.com
-// @description UserStyles for youtube.com
+// @name        [ktn] youtube.com
+// @description Customizations for youtube.com
 // @author      ktnjared
 // @version     1.0.2
 // @run-at      document-start
 // @grant       GM_addStyle
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // @homepageURL https://ktn.one/jared/userscripts/
-// @downloadURL https://ktn.one/jared/userscripts/raw/youtube.com.css.user.js
-// @updateURL   https://ktn.one/jared/userscripts/raw/youtube.com.css.user.js
+// @downloadURL https://ktn.one/jared/userscripts/raw/youtube.user.js
+// @updateURL   https://ktn.one/jared/userscripts/raw/youtube.user.js
 // @match       *://*.youtube.com/*
 // @match       *://*.youtube/*
 // @match       *://youtu.be/*

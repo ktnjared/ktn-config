@@ -19,3 +19,10 @@ GM_addStyle(`
         display: none;
     }
 `);
+
+// Hide Premium Trial in header
+GM_addStyle(`
+    div.sc-4nj1pr-4.cugra:has(a[href="/premium/lead/lp/?g=anchor&i=site_header_omni_bar&p=free_campaign"]) {
+        display: none;
+    }
+`)

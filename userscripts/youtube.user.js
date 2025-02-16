@@ -173,3 +173,10 @@ GM_addStyle(`
         display: none;
     }
 `);
+
+// Hide Recommended Videos on Playlists
+GM_addStyle(`
+    ytd-item-section-renderer.style-scope.ytd-section-list-renderer:has(*[title-style="ITEM_SECTION_HEADER_TITLE_STYLE_PLAYLIST_RECOMMENDATIONS"]) {
+        display: none;
+    }
+`)

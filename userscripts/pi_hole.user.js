@@ -9,7 +9,7 @@
 // @homepageURL https://ktn.one/jared/userscripts/
 // @downloadURL https://ktn.one/jared/userscripts/raw/pi_hole.user.js
 // @updateURL   https://ktn.one/jared/userscripts/raw/pi_hole.user.js
-// @match       *://pihole.dab-komodo.ts.net/*
+// @match       *://pihole.*/*
 // @match       *://pihole/*
 // ==/UserScript==
 

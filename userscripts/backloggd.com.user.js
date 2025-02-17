@@ -8,9 +8,9 @@
 // @updateURL   https://raw.githubusercontent.com/ktnjared/ktn-config/main/userscripts/backloggd.com.css.user.js
 // @author      ktnjared
 // @version     1.0.0
-// @match       *://*.backloggd.com/*
-// @grant       GM_addStyle
 // @run-at      document-start
+// @grant       GM_addStyle
+// @match       *://*.backloggd.com/*
 // ==/UserScript==
 
 // invert colors to generate "light mode"
